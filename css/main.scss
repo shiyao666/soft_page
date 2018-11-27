@@ -1,5 +1,4 @@
-@import 'bootstrap.min.scss';
-@import 'reset';
+@import 'style';
 body.paper {
     background-color: #e0e0e0;
 }
@@ -61,7 +60,7 @@ body.paper {
             border-bottom-left-radius: 1em;
             border-bottom-right-radius: 1em;
             @media screen and (max-width: 768px) {
-                margin: -9em 0 0 0;
+                margin: -9em 1em 0 1em;
                 padding-bottom: 2em;
             }
             .center_row_1 {}
@@ -386,17 +385,17 @@ body.paper {
         padding-bottom: 10em;
         .third_box {
             box-shadow: 0 0 0.4em rgba(0, 0, 0, 0.6);
-            margin: 1em;
+            margin: 2em;
             padding: 8em 2em 2em 2em;
             margin-top: -7em;
             background: #fff;
-            border-bottom-left-radius: 1em;
-            border-bottom-right-radius: 1em;
+            border-radius: 1em;
             @media screen and (max-width: 768px) {
                 margin-left: 0;
                 margin-right: 0;
                 padding-left: 1em;
                 padding-right: 1em;
+                margin: auto 1em;
             }
             .third_title {
                 img {
@@ -664,74 +663,13 @@ body.paper {
                 }
             }
         }
-        .four_box {
-            box-shadow: 0 0 0.4em rgba(0, 0, 0, 0.6);
-            margin: 1em;
-            background: #fff;
-            border-radius: 1em;
-            padding: 4em 2em 2em 2em;
-            overflow: hidden;
-            .num_logo {
+        .four_box,
+        .four_box2,
+        .four_box3 {
+            img {
                 display: block;
-                width: 4em;
+                width: 100%;
                 height: auto;
-                margin-right: 4em;
-                float: right;
-                margin-top: -3em;
-            }
-            .box4_div1 {
-                height: 50em;
-                margin-top: 2em;
-                background-image: url(../src_img/10.png);
-                background-repeat: no-repeat;
-                background-size: contain;
-                .box4_title {
-                    width: 100%;
-                    overflow: hidden;
-                    h3 {
-                        float: right;
-                    }
-                }
-                .box4_card1 {
-                    .dot {
-                        display: block;
-                        width: 1em;
-                        height: 1em;
-                        z-index: 1;
-                        background: #dfdfdf;
-                        border-radius: 50%;
-                        margin: auto;
-                        margin-top: 2em;
-                        margin-bottom: 2em;
-                    }
-                    margin: 1em;
-                    background: linear-gradient(to bottom right,
-                    #04b8d7,
-                    #17a1ea);
-                    color: #fff;
-                    border-radius: 1em;
-                    padding: 1em 2em 2em 2em;
-                    box-shadow: 0 0 0.4em rgba(0,
-                    0,
-                    0,
-                    0.6);
-                    p {
-                        font-weight: normal;
-                        font-size: 2em;
-                        line-height: 1.5;
-                        @media screen and (max-width: 768px) {
-                            font-size: 1.2em;
-                        }
-                    }
-                    span {
-                        font-size: 2em;
-                        display: block;
-                        text-align: right;
-                        @media screen and (max-width: 768px) {
-                            font-size: 1.2em;
-                        }
-                    }
-                }
             }
         }
     }

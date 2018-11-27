@@ -5727,7 +5727,7 @@ body.paper {
       border-bottom-right-radius: 1em; }
       @media screen and (max-width: 768px) {
         .container-fixed .container .center {
-          margin: -9em 0 0 0;
+          margin: -9em 1em 0 1em;
           padding-bottom: 2em; } }
       .container-fixed .container .center .center_row_1 div:nth-of-type(1),
       .container-fixed .container .center .center_row_2 div:nth-of-type(1),
@@ -6008,18 +6008,18 @@ body.paper {
     padding-bottom: 10em; }
     .container-fixed .container_third .third_box {
       box-shadow: 0 0 0.4em rgba(0, 0, 0, 0.6);
-      margin: 1em;
+      margin: 2em;
       padding: 8em 2em 2em 2em;
       margin-top: -7em;
       background: #fff;
-      border-bottom-left-radius: 1em;
-      border-bottom-right-radius: 1em; }
+      border-radius: 1em; }
       @media screen and (max-width: 768px) {
         .container-fixed .container_third .third_box {
           margin-left: 0;
           margin-right: 0;
           padding-left: 1em;
-          padding-right: 1em; } }
+          padding-right: 1em;
+          margin: auto 1em; } }
       .container-fixed .container_third .third_box .third_title img {
         width: 4em; }
       .container-fixed .container_third .third_box .title3_nav {
@@ -6227,61 +6227,11 @@ body.paper {
           display: block;
           width: 100%;
           height: auto; }
-    .container-fixed .container_third .four_box {
-      box-shadow: 0 0 0.4em rgba(0, 0, 0, 0.6);
-      margin: 1em;
-      background: #fff;
-      border-radius: 1em;
-      padding: 4em 2em 2em 2em;
-      overflow: hidden; }
-      .container-fixed .container_third .four_box .num_logo {
-        display: block;
-        width: 4em;
-        height: auto;
-        margin-right: 4em;
-        float: right;
-        margin-top: -3em; }
-      .container-fixed .container_third .four_box .box4_div1 {
-        height: 50em;
-        margin-top: 2em;
-        background-image: url(../src_img/10.png);
-        background-repeat: no-repeat;
-        background-size: contain; }
-        .container-fixed .container_third .four_box .box4_div1 .box4_title {
-          width: 100%;
-          overflow: hidden; }
-          .container-fixed .container_third .four_box .box4_div1 .box4_title h3 {
-            float: right; }
-        .container-fixed .container_third .four_box .box4_div1 .box4_card1 {
-          margin: 1em;
-          background: linear-gradient(to bottom right, #04b8d7, #17a1ea);
-          color: #fff;
-          border-radius: 1em;
-          padding: 1em 2em 2em 2em;
-          box-shadow: 0 0 0.4em rgba(0, 0, 0, 0.6); }
-          .container-fixed .container_third .four_box .box4_div1 .box4_card1 .dot {
-            display: block;
-            width: 1em;
-            height: 1em;
-            z-index: 1;
-            background: #dfdfdf;
-            border-radius: 50%;
-            margin: auto;
-            margin-top: 2em;
-            margin-bottom: 2em; }
-          .container-fixed .container_third .four_box .box4_div1 .box4_card1 p {
-            font-weight: normal;
-            font-size: 2em;
-            line-height: 1.5; }
-            @media screen and (max-width: 768px) {
-              .container-fixed .container_third .four_box .box4_div1 .box4_card1 p {
-                font-size: 1.2em; } }
-          .container-fixed .container_third .four_box .box4_div1 .box4_card1 span {
-            font-size: 2em;
-            display: block;
-            text-align: right; }
-            @media screen and (max-width: 768px) {
-              .container-fixed .container_third .four_box .box4_div1 .box4_card1 span {
-                font-size: 1.2em; } }
+    .container-fixed .container_third .four_box img,
+    .container-fixed .container_third .four_box2 img,
+    .container-fixed .container_third .four_box3 img {
+      display: block;
+      width: 100%;
+      height: auto; }
 
 /*# sourceMappingURL=main.css.map */
