@@ -280,7 +280,6 @@ body.paper {
                         margin-left: 1.5em;
                         text-align: left;
                         line-height: 1.5;
-
                         @media screen and (max-width: 768px) {
                             font-size: 2em;
                             margin-left: 3em;
@@ -566,7 +565,7 @@ body.paper {
                 .box3_row1 {
                     padding-top: 2em;
                     @media screen and (max-width: 768px) {
-                        padding-top: 3em;
+                        padding-top: 4em;
                     }
                     div:nth-of-type(1) {
                         padding-left: 6em;
